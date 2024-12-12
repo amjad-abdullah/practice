@@ -1,0 +1,83 @@
+.form{
+   margin-top: 10px;
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+    animation-name: ab;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+   
+    
+}
+@keyframes ab{
+    from {
+        background-color: aquamarine;
+    }
+    to{
+        background-color: rgb(22, 31, 28);
+    }
+}
+/* form :hover{
+    background-color: darkgray; */
+
+
+}
+.parent{
+    display: flexbox;
+    justify-self: center;
+    
+}
+label{
+    display: block;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 10px;
+   width: 500px;
+    box-sizing: border-box;
+    margin: auto;
+    
+}
+.content:hover{
+    background-color: cadetblue;
+}
+input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    transition: all 1s;
+}
+input:hover{
+    padding: 7px;
+    background-color: darkseagreen;
+}
+input[type="radio"]{
+    width: auto;
+    margin-right: 20px;
+
+}
+fieldset{
+    border: none;
+}
+@keyframes form {
+    from{background-color: darkcyan;}
+    to{background-color: coral;}
+}
+.content{
+    animation-name: form;
+    /* animation-delay: 1s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+
